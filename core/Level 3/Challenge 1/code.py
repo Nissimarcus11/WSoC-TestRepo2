@@ -80,8 +80,7 @@ class Cricket(Sport):
         elif(type==5):
             cricket_legend1.legend_details() #calling method of legend class
             cricket_legend2.legend_details()
-        # else:
-        #     exit()
+
 
 class Football(Sport):
     def __init__(self):
@@ -250,7 +249,6 @@ def football_menu():
                 MainMenu()
                 break
             elif(inpt in range(1,3)):
-                # print("passed")
                 break
             else:
                 print("Please enter valid option: ")
@@ -294,7 +292,6 @@ def badminton_menu():
                 MainMenu()
                 break
             elif(inpt in range(1,5)):
-                # print("passed")
                 break
             else:
                 print("Please enter valid option: ")
